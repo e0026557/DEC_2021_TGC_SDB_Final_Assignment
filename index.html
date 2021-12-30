@@ -22,7 +22,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- Custom CSS -->
+    <!-- Custom External CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <!-- MOS Burger favicon -->
@@ -35,13 +35,19 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <!-- MOS Burger Logo -->
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand ms-2" href="#"
           ><img src="images/mos_logo.png" alt="MOS Burger Logo"
         /></a>
 
+        <!-- Additional navlinks outside of collapse button -->
+        <div class="navbar-text ms-auto me-3 d-lg-none">
+          <a class="add-navlink" href="#">Menu</a>
+          <a class="add-navlink" href="#">Outlets</a>
+        </div>
+
         <!-- Collapse button -->
         <button
-          class="navbar-toggler"
+          class="navbar-toggler me-2"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
