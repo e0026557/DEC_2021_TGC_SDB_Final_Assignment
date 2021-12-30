@@ -25,6 +25,9 @@
     <!-- Custom External CSS -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Custom External Javascript -->
+    <script type="text/javascript" src="script.js"></script>
+
     <!-- MOS Burger favicon -->
     <title>MOS</title>
     <link rel="icon" type="image/x-icon" href="images/mos-burger.ico" />
@@ -35,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <!-- MOS Burger Logo -->
-        <a class="navbar-brand ms-2" href="#"
+        <a class="navbar-brand ms-3" href="#"
           ><img src="images/mos_logo.png" alt="MOS Burger Logo"
         /></a>
 
@@ -47,7 +50,8 @@
 
         <!-- Collapse button -->
         <button
-          class="navbar-toggler me-2"
+          id="navbar-button"
+          class="navbar-toggler me-3"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -60,7 +64,7 @@
 
         <!-- Navlinks -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto ms-3 mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#">About MOS</a>
             </li>
@@ -77,16 +81,87 @@
               <a class="nav-link" href="#">Contact Us</a>
             </li>
             <li><hr class="dropdown-divider" /></li>
-            <li class="nav-item">
+            <li class="nav-item d-lg-none">
               <a class="nav-link" href="#">MOS Japan</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-lg-none">
               <a class="nav-link" href="#">MOS Taiwan</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/Jolly_cauli_chicken_burger_promo2.jpg"
+            class="d-block w-100"
+            alt="Poster of Jolly Cauli Chicken Burger"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/Katsu_sauce_burger_promo.jpg"
+            class="d-block w-100"
+            alt="Poster of Katsu Sauce Wagyu Burger"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/Cheesy_wagyu_burger_promo.jpg"
+            class="d-block w-100"
+            alt="Poster of Cheesy Wagyu Burger"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
