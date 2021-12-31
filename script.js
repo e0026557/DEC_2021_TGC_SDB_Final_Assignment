@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Get collapse button
   const collapseBtn = document.querySelector("#navbar-button");
-  // Get additional Navlinks
+  // Get additional Navlinks (outside of collapse button)
   const addnavbar = document.querySelector(".navbar-text");
 
   // switch variable to keep track of clicks
