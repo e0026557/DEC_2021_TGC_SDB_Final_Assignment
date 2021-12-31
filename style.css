@@ -24,8 +24,6 @@ body {
   text-align: center;
 }
 
-/* Carousel */
-
 /* Medium screen settings */
 @media screen and (min-width: 768px) {
   /* Logo */
@@ -43,6 +41,7 @@ body {
 /* Large screen settings */
 @media screen and (min-width: 992px) {
   body {
+    /* Background image */
     background-image: url(images/background.jpg);
     background-position: center;
     background-repeat: repeat;
@@ -57,9 +56,20 @@ body {
   /* Navlink  */
   .nav-link {
     margin: 0px 16px 0px 0px;
+    border-bottom-style: solid;
+    border-color: transparent;
+    border-bottom-width: 0.5px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
   }
 
-  /* carousel */
+  .nav-link:hover {
+    color: rgb(0, 167, 40) !important;
+    border-bottom-style: solid;
+    border-color: rgb(0, 167, 40);
+  }
+
+  /* Carousel */
   .carousel-item > img {
     margin-left: auto;
     margin-right: auto;
