@@ -60,7 +60,6 @@ body {
     border-color: transparent;
     border-bottom-width: 0.5px;
     transition-duration: 0.4s;
-    transition-timing-function: ease;
   }
 
   .nav-link:hover {
