@@ -54,6 +54,24 @@ body {
   font-size: 12px;
 }
 
+/* Delivery Partners Section */
+.partner-logos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partner-logo {
+  background-color: rgba(255, 235, 205, 0.8);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.partner-logo > a > img {
+  height: 30px;
+}
+
 /* Medium screen settings */
 @media screen and (min-width: 768px) {
   /* Logo */
@@ -74,6 +92,11 @@ body {
 
   .card-text {
     font-size: 14px;
+  }
+
+  /* Delivery Partners Section */
+  .partner-logo > a > img {
+    height: 35px;
   }
 }
 
@@ -110,5 +133,10 @@ body {
   /* News Card */
   .card-text {
     font-size: 16px;
+  }
+
+  /* Delivery Partners Section */
+  .partner-logo > a > img {
+    height: 40px;
   }
 }
