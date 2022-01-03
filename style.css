@@ -201,5 +201,49 @@ footer {
     font-size: 16px;
   }
 
-  /* Delivery Partners Section */
+  /* Footer */
+  .footer-logo > a > img {
+    height: 40px;
+  }
+
+  /* Footer: sitemap column header */
+  .footer-col-header {
+    color: white;
+    text-align: left;
+  }
+  .footer-col-header > h6 {
+    font-size: 12px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  /* Footer: sitemap column content */
+  .footer-col-content {
+    color: white;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .footer-col-content > ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .sitemap-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .sitemap-link:hover {
+    color: rgb(209, 207, 207);
+  }
+
+  /* Copyright */
+  .copyright {
+    font-size: 9px;
+  }
 }
